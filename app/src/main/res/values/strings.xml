@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Signal from mars</string>
+    <string name="story_from_mars" translatable="false">Signal from mars</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="key_name" translatable="false">name</string>
+    <string name="signal_from_mars_title_image">Signal from mars title image</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="start_your_adventure">START YOUR ADVENTURE</string>
+    <string name="signal_from_mars">Signal from mars</string>
+</resources>
