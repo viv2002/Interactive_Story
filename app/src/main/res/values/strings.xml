@@ -3,8 +3,48 @@
     <string name="story_from_mars" translatable="false">Signal from mars</string>
     <string name="textview" translatable="false">TextView</string>
     <string name="key_name" translatable="false">name</string>
-    <string name="signal_from_mars_title_image">Signal from mars title image</string>
+    <string name="signal_from_mars_title_image" translatable="false">Signal from mars title image</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="start_your_adventure">START YOUR ADVENTURE</string>
     <string name="signal_from_mars">Signal from mars</string>
+
+    <string name="page0">On your return trip from studying Saturn\'s rings,you hear a distress
+        signal that seems to be coming from surface of Mars.It\'s strange because there hasn\'t
+    been a colony there in years.Even stranger it\'s calling you by name: \"Help me, %1$s,you\'re
+    my only hope.\"</string>
+    <string name="page0choice_1">Stop and investigate</string>
+    <string name="page0choice_2">Continue home to Earth</string>
+
+    <string name="page1">You deftly land your ship near where the distress signal generated.You
+    didn\'t notice anything strange in your fly-by,but there is a cave in front of you.Behind you
+    there is an abandoned rover from early 21st century.</string>
+    <string name="page1choice_1">Explore the cave</string>
+    <string name="page1choice_2">Explore the rover</string>
+
+    <string name="page2">You continue your course to Earth.Two days later,you receive a transmission
+    from HQ saying that they have detected some sort of anomaly on the surface of Mars near an
+    abandoned rover. They ask you to investigate but ultimately the choice is yours because your
+        mission has already run much longer than planned and supplies are low.</string>
+    <string name="page2choice_1">Head back to Mars to investigate</string>
+    <string name="page2choice_2">Continue home to earth</string>
+
+    <string name="page3">Your EVa suit is equipped with a headlamp,which you use to navigate the
+        cave.After searching for a while your oxygen level is starting to get pretty low.You know
+    you should go to refill your tank,but there\'s a very faint light up ahead.</string>
+    <string name="page3choice_1">Refill at ship and explore the rover</string>
+    <string name="page3choice_2">Continue towards the faint light</string>
+
+    <string name="page4">The rover is covered in dust and most of the solar panels are broken.But
+    you are quite surprised to see the on-board system booted up and running.In fact,there is a
+    message on the screen;\"%1$s, come to 24.543634,-81.369061.\" Those coordinates aren\'t far but
+    you don\'t know if your oxygen will last for a trip there and back.</string>
+    <string name="page4choice_1">Explore the coordinates</string>
+    <string name="page4choice_2">Return to Earth</string>
+
+    <string name="page5">After a long walk slightly uphill,you end up at the top of a small crater.
+    You look around and you are overjoyed to see you favourite android, %1$s-S114.It had been lost
+    in a previous mission to Mars! You take it back to the ship and fly back to Earth.</string>
+
+    <string name="page6">You arrive home on Earth. While your mission was a success you forever
+    wonder what was sending that signal. Perhaps a future mission will be able to investigate…</string>
 </resources>
