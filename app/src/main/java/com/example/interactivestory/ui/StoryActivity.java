@@ -1,16 +1,18 @@
-package com.example.interactivestory;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.interactivestory.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.interactivestory.R;
+
 public class StoryActivity extends AppCompatActivity {
+    public static final String TAG = StoryActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        final String TAG = StoryActivity.class.getSimpleName();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
 

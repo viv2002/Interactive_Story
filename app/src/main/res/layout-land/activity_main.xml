@@ -9,7 +9,7 @@
     android:backgroundTint="#00BCD4"
     android:contentDescription="@string/signal_from_mars_title_image"
     android:padding="15dp"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <ImageView
         android:id="@+id/StoryImageView"
