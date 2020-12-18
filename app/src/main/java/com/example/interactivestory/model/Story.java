@@ -3,11 +3,11 @@ package com.example.interactivestory.model;
 import com.example.interactivestory.R;
 
 public class Story {
-    private page[] pages;
+    private final page[] pages;
     public Story(){
         pages = new page[7];
 
-        pages[0] = new page(R.drawable.ic_launcher_background,R.string.page0,
+        pages[0] = new page(R.drawable.ic_launcher_foreground,R.string.page0,
                 new choice(R.string.page0choice_1,1),
                 new choice(R.string.page0choice_2,2));
 
@@ -30,5 +30,12 @@ public class Story {
         pages[5] = new page(R.drawable.ic_launcher_foreground,R.string.page5);
 
         pages[6] = new page(R.drawable.ic_launcher_foreground,R.string.page6);
+    }
+
+    public page getPage(int pageNumber) {
+        if(pageNumber >= pages.length){
+            pageNumber = 0;
+        }
+        return pages[pageNumber];
     }
 }
